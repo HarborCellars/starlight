@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Éclat Cellars — Fine Wine Distribution</title>
+    <meta name="description" content="A luxury online wine distribution house curating exceptional vintages and delivering with white-glove care." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark">É</span>
+          <span class="brand-name">Éclat Cellars</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul id="nav-menu">
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#vineyards">Vineyards</a></li>
+            <li><a href="#journal">Journal</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-primary header-cta" href="#join">Join the Cellar</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-media" role="img" aria-label="Dimly lit wine cellar with oak barrels"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Curate. Cellar. Deliver.</h1>
+            <p>We source coveted allocations and rare releases, delivering them with white‑glove care to discerning collectors and esteemed venues.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#collections">Explore Collections</a>
+              <a class="btn btn-ghost" href="#story">Our House</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="collections" class="section section-collections">
+        <div class="container">
+          <header class="section-head">
+            <h2>Signature Collections</h2>
+            <p>Small‑lot vintages and iconic labels, hand‑selected by our sommeliers.</p>
+          </header>
+          <div class="grid cards">
+            <!-- Card 1 -->
+            <article class="card">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1532634896-26909d0d4b6a?q=80&w=1200&auto=format&fit=crop" alt="Bordeaux grand cru bottle on marble" />
+              </div>
+              <div class="card-body">
+                <h3>Château Noir 2016</h3>
+                <p class="subtle">Pauillac, Bordeaux</p>
+                <div class="card-actions">
+                  <span class="price">$320</span>
+                  <button class="btn btn-outline add-to-cellar" data-item="Château Noir 2016">Add to Cellar</button>
+                </div>
+              </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="card">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1604908554027-0e9b865d1a0f?q=80&w=1200&auto=format&fit=crop" alt="Burgundy pinot noir bottle" />
+              </div>
+              <div class="card-body">
+                <h3>Clos de Lumière 2019</h3>
+                <p class="subtle">Gevrey‑Chambertin, Burgundy</p>
+                <div class="card-actions">
+                  <span class="price">$245</span>
+                  <button class="btn btn-outline add-to-cellar" data-item="Clos de Lumière 2019">Add to Cellar</button>
+                </div>
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a3?q=80&w=1200&auto=format&fit=crop" alt="Napa cabernet bottle in low light" />
+              </div>
+              <div class="card-body">
+                <h3>Val d’Or 2018</h3>
+                <p class="subtle">Stags Leap, Napa Valley</p>
+                <div class="card-actions">
+                  <span class="price">$180</span>
+                  <button class="btn btn-outline add-to-cellar" data-item="Val d’Or 2018">Add to Cellar</button>
+                </div>
+              </div>
+            </article>
+            <!-- Card 4 -->
+            <article class="card">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7?q=80&w=1200&auto=format&fit=crop" alt="Champagne coupe with bubbles" />
+              </div>
+              <div class="card-body">
+                <h3>Maison Étoile Brut NV</h3>
+                <p class="subtle">Montagne de Reims, Champagne</p>
+                <div class="card-actions">
+                  <span class="price">$95</span>
+                  <button class="btn btn-outline add-to-cellar" data-item="Maison Étoile Brut NV">Add to Cellar</button>
+                </div>
+              </div>
+            </article>
+            <!-- Card 5 -->
+            <article class="card">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1516594915697-6de8ea00c76c?q=80&w=1200&auto=format&fit=crop" alt="Tuscan vineyard at sunset" />
+              </div>
+              <div class="card-body">
+                <h3>Rosso Forte 2017</h3>
+                <p class="subtle">Montalcino, Tuscany</p>
+                <div class="card-actions">
+                  <span class="price">$120</span>
+                  <button class="btn btn-outline add-to-cellar" data-item="Rosso Forte 2017">Add to Cellar</button>
+                </div>
+              </div>
+            </article>
+            <!-- Card 6 -->
+            <article class="card">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c76a7?q=80&w=1200&auto=format&fit=crop" alt="Spanish rioja bottle and corks" />
+              </div>
+              <div class="card-body">
+                <h3>Viña Dorada Reserva 2015</h3>
+                <p class="subtle">Rioja Alta, Spain</p>
+                <div class="card-actions">
+                  <span class="price">$110</span>
+                  <button class="btn btn-outline add-to-cellar" data-item="Viña Dorada Reserva 2015">Add to Cellar</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="section section-split">
+        <div class="container split">
+          <div class="split-media">
+            <img src="https://images.unsplash.com/photo-1509401934319-c03c78a01aef?q=80&w=1200&auto=format&fit=crop" alt="Sommelier pouring red wine" />
+          </div>
+          <div class="split-copy">
+            <h2>Our House</h2>
+            <p>Founded by master sommeliers and former estate directors, Éclat Cellars curates a portfolio defined by provenance. Our relationships at the château and vineyard level grant access to limited‑release bottlings and library selections seldom seen beyond the domaine.</p>
+            <p>We ship climate‑controlled, offer tailored cellar planning, and serve both private collectors and Michelin‑starred partners.</p>
+            <a class="btn btn-secondary" href="#contact">Speak with a Curator</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="vineyards" class="section section-marquee" aria-label="Partner vineyards">
+        <div class="marquee container">
+          <span>Château Lumière</span>
+          <span>Maison Étoile</span>
+          <span>Val d’Or</span>
+          <span>Clos de Minuit</span>
+          <span>Santa Rita Hills</span>
+          <span>Barossa Heritage</span>
+        </div>
+      </section>
+
+      <section id="journal" class="section section-journal">
+        <div class="container">
+          <header class="section-head">
+            <h2>From the Journal</h2>
+            <p>Notes on terroir, cellaring, and new allocations.</p>
+          </header>
+          <div class="grid journal">
+            <article class="note">
+              <h3>The Art of Decanting Aged Bordeaux</h3>
+              <p class="subtle">2 min • Service</p>
+            </article>
+            <article class="note">
+              <h3>Volcanic Soils and Tension in Etna Rosso</h3>
+              <p class="subtle">4 min • Terroir</p>
+            </article>
+            <article class="note">
+              <h3>Allocations: Spring Champagne Growers</h3>
+              <p class="subtle">3 min • Releases</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="section section-cta">
+        <div class="container cta">
+          <h2>Membership, Elevated</h2>
+          <p>Private offers, first access releases, and personal concierge.</p>
+          <form class="cta-form" action="#" method="post" onsubmit="return false">
+            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required />
+            <button class="btn btn-primary" type="submit">Request Invitation</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-mark">É</span>
+          <div>
+            <strong>Éclat Cellars</strong>
+            <p class="subtle">Fine Wine Distribution</p>
+          </div>
+        </div>
+        <div class="footer-grid">
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="mailto:concierge@eclatcellars.com">concierge@eclatcellars.com</a></li>
+              <li><a href="tel:+12125550123">+1 (212) 555‑0123</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#story">About</a></li>
+              <li><a href="#journal">Journal</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Shipping</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-base">
+        <p class="subtle">© <span id="year"></span> Éclat Cellars. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
